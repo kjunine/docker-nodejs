@@ -1,6 +1,6 @@
-FROM kjunine/ubuntu:latest
+FROM kjunine/python:latest
 MAINTAINER Daniel Ku "kjunine@gmail.com"
-ENV REFRESHED_AT 2014-11-01
+ENV REFRESHED_AT 2014-11-20
 
 RUN wget http://nodejs.org/dist/v0.10.33/node-v0.10.33-linux-x64.tar.gz && \
     tar xzf node-v0.10.33-linux-x64.tar.gz && \
